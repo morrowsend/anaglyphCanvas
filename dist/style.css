@@ -1,0 +1,134 @@
+.site-navigation {
+    overflow: hidden;
+    background-color: #666666;
+}
+
+.site-navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.site-navigation a:hover {
+    background-color: #3a3a3a;
+    color: white;
+    /*padding-left: 60px;*/
+}
+
+.site-navigation a.active {
+    background-color: #666666;
+    color: white;
+
+}
+
+.btn-group .button {
+    background-color: #666666;
+    /*   border: 1px solid #3a3a3a; */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+}
+
+.sliders {
+    padding: 100px;
+}
+
+.btn-group .button:hover {
+    background-color: #3a3a3a;
+}
+
+#zone {
+    width: 380px;
+}
+
+#drawing-mode {
+    margin-bottom: 10px;
+    vertical-align: top;
+}
+
+#drawing-mode-options {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background: #f5f2f0;
+    padding: 10px;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+}
+
+.info {
+    display: inline-block;
+    width: 25px;
+    /*background: #ffc;*/
+}
+
+#bd-wrapper {
+    min-width: 1500px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+/* Create two  columns that floats next to each other */
+.rightColumn {
+    float: right;
+    width: 300px;
+    /*   padding-left: 10px; */
+    /*   padding-right:40px; */
+    /*   height: 300px;  */
+    /* Should be removed. Only for demonstration */
+}
+
+html {
+    margin-top: 32px !important;
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"
+}
+
+.site-logo {
+    padding: 17px;
+    background: #fff;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 60px;
+    width: 100%;
+    background-color: #3a3a3a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+ 
+}
+
+.leftColumn {
+    float: left;
+    width: 75%;
+    padding-left: 40px;
+    padding-top: 40px;
+    /*   height: 300px;*/
+    /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
